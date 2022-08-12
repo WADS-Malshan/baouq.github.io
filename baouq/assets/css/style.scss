@@ -926,7 +926,7 @@ body{
 .contact-us{
     padding-top: 70px;
     padding-bottom: 50px;
-    border-bottom: 5px solid $primary_color;
+    
     h2{
         color: $secondary_color;
         font-weight: 500;
@@ -990,7 +990,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 1px solid $primary_color;
+    border-top: 5px solid $primary_color;
     p{
         color: $paragraph-text-color;
         font-weight: 500;
@@ -1857,7 +1857,6 @@ body{
     padding-top: 70px;
     padding-bottom: 50px;
     background: rgba(241, 174, 43, 0.29);
-    border-bottom: 5px solid $primary_color;
     h2{
         font-weight: 500;
         font-size: 36px;
@@ -2041,7 +2040,7 @@ body{
 
 
 
-
+// -----------------------------------------Inquiry-----------------------------------------
 
 
 
@@ -2058,3 +2057,125 @@ body{
 
 
 }
+
+
+// -----------------------------------------Support-----------------------------------------
+
+
+// Start support header
+
+.support-header{
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url("../images/support-header-image.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1 !important;
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36, 36, 36, 0.4);
+        z-index: -1 !important;
+        
+    }
+    h2{
+        color: $white;
+        font-weight: 600;
+        font-size: 36px;
+    }
+    
+    input{
+        width: 100%;
+        padding: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        color: $paragraph-text-color;
+        border: none;
+        border-radius: 5px 0 0 5px;
+       
+        
+    }
+    button{
+        padding: 10px 50px;
+        font-weight: 400;
+        font-size: 14px;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        background: $primary_color;
+        color: $white;
+      
+
+    }
+    button:hover{
+        background: $button_hover_color;
+    }
+}
+// End our support header
+
+// Start support content
+.support-content{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    .content-box{
+        padding: 20px;
+        background: rgba(238, 238, 238, 0.4);
+        border-radius: 5px;
+        .image-align{
+            display: flex;
+            justify-content: end;
+            img{
+                margin-top: 10px;
+            }
+        }
+        h2{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 36px;
+            span{
+                color: $primary_color;
+            }
+        }
+        p{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        a{
+            display: inline-block;
+            color: $white;
+            background: $primary_color;
+            font-size: 14px;
+            padding: 8px 15px;
+            font-weight: 500;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        a:hover{
+            transition: 0.2s;
+            background: $button_hover_color;
+            color: $white;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .support-content{
+        .content-box{
+            .image-align{
+                display: flex;
+                justify-content: start;
+            }
+        }
+    }
+}
+// End support content
+
