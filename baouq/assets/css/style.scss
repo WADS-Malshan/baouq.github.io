@@ -2179,3 +2179,404 @@ body{
 }
 // End support content
 
+
+
+
+
+
+// Start our blog header
+
+.our-fleet-header{
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url("../images/our-fleet-header-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .sec-02{
+        position: absolute;
+        bottom: -230px;
+        left: 0;
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        height: 100%;
+        .header-content{
+            margin-bottom: 60px;
+            
+            h2{
+                color: $primary_color;
+                font-weight: 500;
+                font-size: 36px;
+            }
+            p{
+                color: $paragraph-text-color;
+                font-weight: 400;
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
+
+// End our blog header
+
+
+.how-digital-fleet{
+    margin-top: 200px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: rgba(241, 174, 43, 0.29);
+    .image-align{
+        display: flex;
+        justify-content: end;
+    }
+    h2{
+        color: $secondary_color;
+    }
+    p{
+        color: $paragraph-text-color;
+    }
+    li{
+        list-style: none;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        img{
+            margin-right: 10px;
+        }
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top: 30px;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $button_hover_color;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .our-fleet-header{
+        .sec-02{
+            .image{
+                display: none;
+            }
+            .header-content{
+                margin:10px;
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+
+.complete-overview{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    .content-box{
+        margin: 6px;
+        background: $white;
+        box-shadow: 2px 5px 10px $box-shadow;
+        border-radius: 5px;
+        .box{
+            padding: 20px;
+            img{
+                margin-bottom: 20px;
+            }
+            h6{
+                color: $secondary_color;
+                font-weight: 500;
+                font-size: 14px;
+            }
+            p{
+                color: $paragraph-text-color;
+                font-weight: 400;
+                font-size: 12px;
+            }
+        }
+    }
+    .top-square{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1 !important;
+    }
+    .bottom-square{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1 !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .complete-overview{
+        .top-square{
+            display: none;
+        }
+        .bottom-square{
+            display: none;
+        }
+    }
+}
+
+.file-management{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #F5D9A2;
+    border-bottom: 5px solid $primary_color;
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .align-image{
+        display: flex;
+        justify-content: end;
+        img{
+            mix-blend-mode: luminosity;
+            border-radius: 5px;
+        }
+    }
+}
+
+.device-maintanence{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #F5D9A2;
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .align-image{
+        display: flex;
+        justify-content: start;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .file-management{
+        .align-image{
+            img{
+                display: none;
+            }
+        }
+    }
+    .device-maintanence{
+        .align-image{
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.list-sec{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid $primary_color;
+    .align-image{
+        display: flex;
+        justify-content: start;
+        img{
+            border: none;
+        }
+    }
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .list-box{
+        padding: 20px;
+        background: rgba(77, 77, 77, 0.4);
+        border-radius: 5px;
+        li{
+            list-style: none;
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 14px;
+            img{
+                margin-right: 10px;
+            }
+        }
+        a{
+            display: inline-block;
+            color: $white;
+            background: $secondary_color;
+            font-weight: 500;
+            font-size: 14px;
+            padding: 10px 15px;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        a:hover{
+            transition: 0.2s;
+            background: $paragraph-text-color;
+        }
+    }
+    
+}
+
+
+
+.faq-on-sleet{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    .box{
+        padding: 20px;
+        background: linear-gradient(90.4deg, #F1AE2B 0.3%, rgba(241, 174, 43, 0) 128.13%);
+        margin-bottom: 30px;
+    }
+    .content-box{
+        text-align: center;
+        background: rgba(241, 174, 43, 0.4);
+        border-radius: 5px;
+        position: relative;
+        padding: 20px;
+        .icon{
+            position: absolute;
+            top: -10px;
+            left: 20px;
+        }
+        h6{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        p{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+        }
+    }
+}
+
+
+.fleet-price{
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: rgba(238, 238, 238, 0.4);
+    border-bottom: 5px solid $primary_color;
+    .sec-01, .sec-02{
+        h2{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 36px;
+        }
+        p{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        a{
+            display: inline-block;
+            color: $white;
+            background: $primary_color;
+            font-weight: 500;
+            font-size: 14px;
+            padding: 10px 15px;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            transition: 0.2s;
+            background: $button_hover_color;
+        }
+    }
+    .fleet-box{
+        padding: 20px;
+        background: rgba(241, 174, 43, 0.15);
+        box-shadow: 2px 5px 10px $box-shadow;
+        h3{
+            color: $secondary_color;
+            font-weight: 600;
+            font-size: 32px;
+        }
+        h6{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        hr{
+            color: $black;
+        }
+        h2{
+            color: $secondary_color;
+            font-weight: 600;
+            font-size: 36px;
+        }
+        li{
+            list-style: none;
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 14px;
+            color: $paragraph-text-color;
+            img{
+                margin-right: 10px;
+            }
+        }
+        a{
+            display: inline-block;
+            color: $white;
+            background: $secondary_color;
+            font-weight: 500;
+            font-size: 14px;
+            padding: 10px 15px;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+            width: 100%;
+            text-align: center;
+        }
+        a:hover{
+            transition: 0.2s;
+            background: $paragraph-text-color;
+        }
+    }
+}
