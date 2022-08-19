@@ -8445,3 +8445,680 @@ body{
 
 }
 // End prices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quality-deadline-management-header{
+    margin-top: 100px;
+    padding: 200px 0;
+    background: url("../images/quality/deadline-management-header.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid $primary_color;
+    position: relative;
+    z-index: 1 !important;
+
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36,36,36,0.4);
+        z-index: -1 !important;
+    }
+}
+
+
+.quality-deadline-management-sec-02{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(241, 174, 43, 0.29);
+    .layer{
+        position: relative;
+        .first-box{
+            background: $primary_color;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            padding-left: 30px;
+            padding-right: 180px;
+            border-radius: 5px;
+            h2{
+                color: $secondary_color;
+                font-weight: 500;
+                font-size: 36px;
+            }
+        }
+        .second-box{
+            background: #4C4C4C;
+            padding: 50px 30px;
+            position: absolute;
+            right: 0px;
+            bottom: 30px;
+            width: 600px;
+            border-radius: 5px;
+            p{
+                color: $white;
+                font-weight: 400;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .quality-deadline-management-sec-02{
+        overflow: hidden;
+        position: unset;
+        .layer{
+            .first-box{
+                padding: 10px;
+            }
+            .second-box{
+               display: none;
+            }
+        }
+        
+    }
+}
+
+
+
+
+.quality-deadline-management-sec-03{
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: rgba(243, 241, 241, 0.5);
+    .list-box{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background: rgba(77, 77, 77, 0.4);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        li{
+            list-style: none;
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 14px;
+            img{
+                margin-right: 10px;
+            }
+        }
+        
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $button_hover_color
+    }
+}
+
+
+
+// Start captured section 04
+.quality-deadline-management-sec-04{
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .img-align{
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+    }
+    h6{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .accordion-body{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+        background: rgba(241, 174, 43, 0.3);
+    }
+ 
+    
+}
+
+
+.quality-deadline-management-sec-05{
+    overflow: hidden;
+    h2{
+        margin-top: 10px;
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $button_hover_color;
+    }
+}
+
+
+
+
+.quality-deadline-management-sec-06{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(241, 174, 43, 0.4);
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p
+    {
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $secondary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $paragraph-text-color;
+    }
+}
+
+
+.quality-deadline-management-sec-07{
+    padding: 30px 0;
+    background: $primary_color;
+
+    .box{
+        h2{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 36px;
+            text-align: center;
+            
+        }
+    }
+}
+
+
+// Start prices
+.quality-deadline-management-sec-08{
+    padding-top: 70px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid $primary_color;
+    .content-box{
+        padding: 20px;
+        background: $white;
+        box-shadow: 2px 5px 10px $box-shadow;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        h3{
+            color: $secondary_color;
+            font-weight: 600;
+            font-size: 32px;
+        }
+        h6{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        p{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+            span{
+                color: $primary_color;
+                font-weight: 600;
+                font-size: 36px;
+            }
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 14px;
+            img{
+                margin-right: 10px;
+            }
+        }
+        a{
+            display: inline-block;
+            color: $white;
+            background: $primary_color;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-top: 50px;
+            text-decoration: none;
+            width: 100%;
+            text-align: center;
+        }
+        a:hover{
+            transition: 0.2s;
+            background: $button_hover_color;
+        }
+    }
+
+}
+// End prices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quality-handover-header{
+    margin-top: 100px;
+    padding: 200px 0;
+    background: url("../images/quality/handover-header-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid $primary_color;
+    position: relative;
+    z-index: 1 !important;
+
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36,36,36,0.4);
+        z-index: -1 !important;
+    }
+}
+
+
+.quality-handover-sec-02{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(241, 174, 43, 0.29);
+    .layer{
+        position: relative;
+        .first-box{
+            background: $primary_color;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            padding-left: 30px;
+            padding-right: 180px;
+            border-radius: 5px;
+            h2{
+                color: $secondary_color;
+                font-weight: 500;
+                font-size: 36px;
+            }
+        }
+        .second-box{
+            background: #4C4C4C;
+            padding: 50px 30px;
+            position: absolute;
+            right: 0px;
+            bottom: 10px;
+            width: 600px;
+            border-radius: 5px;
+            p{
+                color: $white;
+                font-weight: 400;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .quality-handover-sec-02{
+        overflow: hidden;
+        position: unset;
+        .layer{
+            .first-box{
+                padding: 10px;
+            }
+            .second-box{
+               display: none;
+            }
+        }
+        
+    }
+}
+
+
+
+
+.quality-handover-sec-03{
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: rgba(243, 241, 241, 0.5);
+    .list-box{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background: rgba(77, 77, 77, 0.4);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        li{
+            list-style: none;
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 14px;
+            img{
+                margin-right: 10px;
+            }
+        }
+        
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $button_hover_color
+    }
+}
+
+
+
+// Start captured section 04
+.quality-handover-sec-04{
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .img-align{
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+    }
+    h6{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .accordion-body{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+        background: rgba(241, 174, 43, 0.3);
+    }
+ 
+    
+}
+
+
+.quality-handover-sec-05{
+    overflow: hidden;
+    h2{
+        margin-top: 10px;
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $button_hover_color;
+    }
+}
+
+
+
+
+.quality-handover-sec-06{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(241, 174, 43, 0.4);
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p
+    {
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $secondary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $paragraph-text-color;
+    }
+}
+
+
+.quality-handover-sec-07{
+    padding: 30px 0;
+    background: $primary_color;
+
+    .box{
+        h2{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 36px;
+            text-align: center;
+            
+        }
+    }
+}
+
+
+// Start prices
+.quality-handover-sec-08{
+    padding-top: 70px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid $primary_color;
+    .content-box{
+        padding: 20px;
+        background: $white;
+        box-shadow: 2px 5px 10px $box-shadow;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        h3{
+            color: $secondary_color;
+            font-weight: 600;
+            font-size: 32px;
+        }
+        h6{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        p{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+            span{
+                color: $primary_color;
+                font-weight: 600;
+                font-size: 36px;
+            }
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 14px;
+            img{
+                margin-right: 10px;
+            }
+        }
+        a{
+            display: inline-block;
+            color: $white;
+            background: $primary_color;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-top: 50px;
+            text-decoration: none;
+            width: 100%;
+            text-align: center;
+        }
+        a:hover{
+            transition: 0.2s;
+            background: $button_hover_color;
+        }
+    }
+
+}
+// End prices
