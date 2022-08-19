@@ -9122,3 +9122,252 @@ body{
 
 }
 // End prices
+
+
+
+
+
+
+
+
+
+
+.fleet-machinery-maintrance-header{
+    margin-top: 100px;
+    padding: 200px 0;
+    background: url("../images/fleet/fleet-machinary-maintrance-header.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid $primary_color;
+    position: relative;
+    z-index: 1 !important;
+
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36,36,36,0.4);
+        z-index: -1 !important;
+    }
+
+    .content{
+        margin: 0 100px;
+        padding: 20px;
+        background: linear-gradient(180deg, #F1AE2B 0%, rgba(241, 174, 43, 0) 124.68%);
+        border-radius: 5px;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        text-align: center;
+        h2{
+            color: $white;
+            font-weight: 500;
+            font-size: 36px;
+        }
+        p{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+.fleet-machinery-maintrance-header{
+
+    .content{
+        display: none;
+    }
+}
+}
+
+
+
+
+
+.fleet-machinery-maintrance-sec-03{
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: rgba(243, 241, 241, 0.5);
+    .list-box{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background: rgba(77, 77, 77, 0.4);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        li{
+            list-style: none;
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 14px;
+            img{
+                margin-right: 10px;
+            }
+        }
+        
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $button_hover_color
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .fleet-machinery-maintrance-sec-03{
+    
+        padding-top: 30px;
+    }
+}
+
+
+.fleet-machinary-maintrance-section-04{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .box{
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        h6{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        h2{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 36px;
+        }
+    }
+    .icon-box{
+        padding: 30px;
+        background: rgba(217, 217, 217, 0.4);
+        margin-bottom: 10px;
+        .outline{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: $white;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .image{
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            
+        }
+        h6{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 12px;
+            color: $paragraph-text-color;
+        }
+    }
+}
+
+
+.fleet-machinary-maintrance-section-05{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    
+    h2{
+        margin-top: 10px;
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $button_hover_color;
+    }
+}
+
+
+
+
+.fleet-machinary-maintrance-section-06{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    li{
+        list-style: none;
+        margin: 10px 0;
+        img{
+            margin-right: 15px;
+        }
+    }
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    p
+    {
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    a{
+        display: inline-block;
+        color: $white;
+        background: $secondary_color;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+    a:hover{
+        transition: 0.2s;
+        background: $paragraph-text-color;
+    }
+    .img-align{
+        display: flex;
+        justify-content: end;
+    }
+}
