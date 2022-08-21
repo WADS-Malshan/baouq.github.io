@@ -9792,7 +9792,7 @@ body{
     margin-top: 100px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background: url("../images/about-us/nevaris-header-image.png");
+    background: url("../images/about-us/jobs-header-image.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9812,7 +9812,7 @@ body{
     }
 }
 
-.nevaris-sec-02{
+.jobs-sec-02{
     padding-top: 70px;
     padding-bottom: 50px;
     .box{
@@ -9836,5 +9836,39 @@ body{
             display: flex;
             justify-content: end;
         }
+    }
+}
+
+
+.jobs-sec-03{
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .box-border{
+        padding: 20px;
+        background: $white;
+        box-shadow: 3px 3px 10px $box-shadow;
+        text-align: center;
+        margin-bottom: 15px;
+        .content{
+            margin-top: 10px;
+            text-align: left;
+            h5{
+                color: $secondary_color;
+                font-weight: 500;
+                font-size: 14px;
+            }
+            h6{
+                color: $secondary_color;
+                font-weight: 400;
+                font-size: 12px;
+            }
+        }
+        
     }
 }
