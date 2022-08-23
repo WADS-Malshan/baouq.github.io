@@ -6,9 +6,9 @@
 
 $font_family: 'Poppins', sans-serif;
 
-$primary_color: #F1AE2B;
+$primary_color: #ff2800;
 $secondary_color: #242424;
-$button_hover_color: #f4bb49;
+$button_hover_color: #DB220E;
 $paragraph-text-color: #4D4D4D;
 $section-background: #F4F4F4;
 $box-shadow: #C8C8C8;
@@ -18,6 +18,7 @@ $white: #ffffff;
 body{
     font-family: $font_family;
     accent-color: $primary_color;
+    
 }
 
 
@@ -9872,3 +9873,370 @@ body{
         
     }
 }
+
+
+
+.video-center-header{
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url("../images/about-us/video-center-header.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1 !important;
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36, 36, 36, 0.4);
+        z-index: -1 !important;
+        
+    }
+}
+
+.video-center-sec-02{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: $primary_color;
+    h2{
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 36px;
+        span{
+            color: $white
+        }
+    }
+    p{
+        color: $white;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+
+
+.video-center-sec-03{
+    overflow: hidden;
+    position: relative;
+    .item{
+        gap: 0;
+        margin: 0 -6px;
+    }
+    .content-img{
+        
+        .center-image{
+            position: absolute;
+            top: 43%;
+            left: 43%;
+            width: 35px;
+            height: 35px;
+        }
+        .bottom-text{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            background: $primary_color;
+            z-index: 2;
+            h6{
+                color: $white;
+                font-weight: 500;
+                font-size: 14px;
+            }
+            
+        }
+    }
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36, 36, 36, 0.4);
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .video-center-sec-03{
+        .item{
+            
+            margin:0;
+        }
+        .content-img{
+            width: 100px;
+        }
+    }
+}
+
+
+.jobs-sec-04{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .image-content{
+        position: relative;
+        img{
+            display: flex;
+        }
+        .black-overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(36, 36, 36, 0.4);
+            z-index: 1;
+            margin-left: 6px;
+            border-radius: 5px;
+            .polygon{
+                cursor: pointer;
+                padding: 10px 15px;
+                background: rgba(36, 36, 36, 0.64);
+                border-radius: 14px;
+                position: absolute;
+                top: 47%;
+                left: 47%;
+            }
+        }
+    }
+    
+    .content-box{
+        padding: 20px 30px;
+        box-shadow: 3px 3px 10px $box-shadow;
+        h6{
+            color: $secondary_color;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        p{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        .btn-set{
+            a{
+                display: inline-block;
+                color: $white;
+                background: $primary_color;
+                font-weight: 500;
+                font-size: 14px;
+                padding: 10px 15px;
+                font-weight: 500;
+                border-radius: 5px;
+                margin: 10px 0;
+                text-decoration: none;
+            }
+            a:hover{
+                transition: 0.2s;
+                background: $button_hover_color
+            }
+    }
+    
+    }
+}
+
+
+
+.events-header{
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url("../images/about-us/events-header.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1 !important;
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36, 36, 36, 0.4);
+        z-index: -1 !important;
+        .topic-content{
+            position: absolute;
+            bottom: -50px;
+            right: 420px;
+            .box-events{
+
+                background: $primary_color;
+                padding: 20px 60px;
+                text-align: center;
+                h2{
+                    color: $secondary_color;
+                    font-weight: 500;
+                    font-size: 36px;
+                    span{
+                        color: $white;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+.para-text{
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    .box{
+        padding: 20px;
+        background: $primary_color;
+        h6{
+            color: $white;
+            font-weight: 400;
+            font-size: 12px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// Start webinar
+.events-time{
+    .margin-top{
+        margin-top: 20px;
+    }
+    border-bottom: 5px solid $box-shadow;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    h2{
+        font-weight: 500;
+        font-size: 36px;
+        span{
+            color: $primary_color;
+        }
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .nav-pills{
+        .active{
+            color: $white !important ;
+            background: $primary_color;
+            border: none;
+        }
+        .nav-item{
+            border: 0.5px solid $box-shadow;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            button{
+                color: $secondary_color;
+                font-weight: 500;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .event-content-box{
+        padding: 20px;
+        background: $section-background;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        .time-box{
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 20px;
+            background: $box-shadow;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            .icon{
+                margin-right: 10px;
+            }
+        }
+        .info-box{
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 20px;
+            background: $box-shadow;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            .icon{
+                margin-right: 10px;
+            }
+        }
+        .venue-box{
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 20px;
+            background: $box-shadow;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            .icon{
+                margin-right: 10px;
+            }
+        }
+        .save-cal-box{
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 20px;
+            background: $box-shadow;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            .icon{
+                margin-right: 10px;
+            }
+        }
+        .more{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h5{
+                color: $secondary_color;
+                font-weight: 500;
+                font-size: 14px;
+            }
+            a{
+                display: inline-block;
+                color: $white;
+                background: $primary_color;
+                font-weight: 500;
+                font-size: 14px;
+                padding: 10px 15px;
+                font-weight: 500;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            a:hover{
+                transition: 0.2s;
+                background: $button_hover_color
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   
+    
+}
+// End webinar
