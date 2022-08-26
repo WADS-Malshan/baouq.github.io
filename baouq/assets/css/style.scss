@@ -10517,3 +10517,269 @@ body{
         margin-bottom: 20px;
     }
 }
+
+
+
+
+.imprint-header{
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url("../images/other/imprint-header.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1 !important;
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36, 36, 36, 0.4);
+        z-index: -1 !important;
+        
+    }
+}
+
+
+.imprint-content-sec-02{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    .topic{
+        text-align: center;
+        color: $primary_color;
+        font-weight: 500;
+        font-size: 36px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: justify;
+    }
+    h5{
+        color: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    ol{
+        li{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+            text-align: justify;
+        }
+    }
+
+    .eclipse-right{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    .eclipse-left{
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+   
+    .imprint-content-sec-02{
+        .eclipse-left{
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+        }
+    }
+}
+
+
+
+.privacy-header{
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url("../images/other/imprint-header.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1 !important;
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36, 36, 36, 0.4);
+        z-index: -1 !important;
+        
+    }
+}
+
+
+.privacy-content-sec-02{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    .topic{
+        text-align: center;
+        color: $primary_color;
+        font-weight: 500;
+        font-size: 36px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    p{
+        color: $paragraph-text-color;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: justify;
+    }
+    h5{
+        color: $primary_color;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    ul{
+        li{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+            text-align: justify;
+            list-style: none;
+            margin-bottom: 10px;
+        }
+    }
+
+    .eclipse-right{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    .eclipse-left{
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+   
+    .privacy-content-sec-02{
+        .eclipse-left{
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+        }
+    }
+}
+
+
+
+
+
+.terms-header{
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url("../images/other/imprint-header.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1 !important;
+    .black-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(36, 36, 36, 0.4);
+        z-index: -1 !important;
+        
+    }
+}
+
+
+.terms-content-sec-02{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    .topic{
+        text-align: center;
+        color: $primary_color;
+        font-weight: 500;
+        font-size: 36px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .box{
+        padding: 20px;
+        border: 3px dashed $primary_color;
+        p{
+            color: $paragraph-text-color;
+            font-weight: 400;
+            font-size: 12px;
+            text-align: justify;
+        }
+        h5{
+            color: $primary_color;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        a{
+            display: inline-block;
+            color: $white;
+            background: $primary_color;
+            font-weight: 500;
+            font-size: 14px;
+            padding: 10px 15px;
+            font-weight: 500;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+        a:hover{
+            transition: 0.2s;
+            background: $button_hover_color
+        }
+    }
+
+    .eclipse-right{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    .eclipse-left{
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+   
+    .terms-content-sec-02{
+        .eclipse-left{
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+        }
+    }
+}
