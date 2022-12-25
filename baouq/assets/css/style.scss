@@ -6,9 +6,9 @@
 
 $font_family: 'Poppins', sans-serif;
 
-$primary_color: #DB220E;
+$primary_color: #ff2800;
 $secondary_color: #242424;
-$button_hover_color: #ff2800;
+$button_hover_color: #DB220E;
 $paragraph-text-color: #4D4D4D;
 $section-background: #F4F4F4;
 $box-shadow: #C8C8C8;
@@ -102,7 +102,7 @@ body{
         border-radius: 5px;
         a{
             text-decoration: none;
-            color: $white;
+            color: $secondary_color;
             font-size: 12px;
             padding: 8px 15px;
             font-weight: 500;
@@ -171,7 +171,7 @@ body{
                 a{
                     background: $primary_color;
                     text-decoration: none;
-                    color: $white;
+                    color: $secondary_color;
                     font-size: 12px;
                     padding: 8px 15px;
                     font-weight: 500;
@@ -2482,7 +2482,7 @@ body{
     padding-bottom: 50px;
     .box{
         padding: 20px;
-        background: linear-gradient(90.4deg, #DB220E 0.3%, rgba(241, 174, 43, 0) 128.13%);
+        background: linear-gradient(90.4deg, #F1AE2B 0.3%, rgba(241, 174, 43, 0) 128.13%);
         margin-bottom: 30px;
     }
     .content-box{
@@ -2662,7 +2662,7 @@ body{
     .box{
         padding: 20px;
         margin-bottom: 50px;
-        background: linear-gradient(90.4deg, #DB220E 0.3%, rgba(241, 174, 43, 0) 128.13%);
+        background: linear-gradient(90.4deg, #F1AE2B 0.3%, rgba(241, 174, 43, 0) 128.13%);
         box-shadow: 2px 5px 10px $box-shadow;
         h2{
             color: $secondary_color;
@@ -2679,7 +2679,7 @@ body{
     .box{
         padding: 20px;
         margin-bottom: 50px;
-        background: linear-gradient(90.4deg, #DB220E 0.3%, rgba(241, 174, 43, 0) 128.13%);
+        background: linear-gradient(90.4deg, #F1AE2B 0.3%, rgba(241, 174, 43, 0) 128.13%);
         box-shadow: 2px 5px 10px $box-shadow;
         h2{
             color: $secondary_color;
@@ -2817,7 +2817,7 @@ body{
     .box{
         padding: 20px;
         margin-bottom: 50px;
-        background: linear-gradient(90.4deg, #DB220E 0.3%, rgba(241, 174, 43, 0) 128.13%);
+        background: linear-gradient(90.4deg, #F1AE2B 0.3%, rgba(241, 174, 43, 0) 128.13%);
         box-shadow: 2px 5px 10px $box-shadow;
         text-align: center;
     }
@@ -3808,7 +3808,7 @@ body{
 .captured-all-01-header{
     margin-top: 100px;
     padding: 100px 0;
-    background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) 90.32%);
+    background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) 90.32%);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3824,7 +3824,7 @@ body{
         right: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) 45.32%);
+        background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) 45.32%);
         z-index: -1 !important;
     }
 
@@ -3993,7 +3993,7 @@ body{
     .captured-all-01-header{
         margin-top: 100px;
         padding: 100px 0;
-        background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0));
+        background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0));
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -4009,7 +4009,7 @@ body{
             right: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) );
+            background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) );
             z-index: -1 !important;
         }
     
@@ -4482,7 +4482,7 @@ body{
 .captured-all-02-header{
     margin-top: 100px;
     padding: 100px 0;
-    background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) 90.32%);
+    background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) 90.32%);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4498,7 +4498,7 @@ body{
         right: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) 45.32%);
+        background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) 45.32%);
         z-index: -1 !important;
     }
 
@@ -4666,7 +4666,7 @@ body{
     .captured-all-02-header{
         margin-top: 100px;
         padding: 100px 0;
-        background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0));
+        background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0));
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -4682,7 +4682,7 @@ body{
             right: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) );
+            background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) );
             z-index: -1 !important;
         }
     
@@ -5106,7 +5106,7 @@ body{
         right: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) 80.32%);
+        background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) 80.32%);
         z-index: -1 !important;
     }
 
@@ -5264,7 +5264,7 @@ body{
     .captured-all-03-header{
         margin-top: 100px;
         padding: 100px 0;
-        background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0));
+        background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0));
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -5280,7 +5280,7 @@ body{
             right: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) );
+            background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) );
             z-index: -1 !important;
         }
     }
@@ -5740,7 +5740,7 @@ body{
 .captured-all-04-header{
     margin-top: 100px;
     padding: 100px 0;
-    background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) 90.32%);
+    background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) 90.32%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5756,7 +5756,7 @@ body{
         right: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) 45.32%);
+        background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) 45.32%);
         z-index: -1 !important;
     }
 
@@ -5924,7 +5924,7 @@ body{
     .captured-all-04-header{
         margin-top: 100px;
         padding: 100px 0;
-        background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0));
+        background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0));
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -5940,7 +5940,7 @@ body{
             right: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(88.27deg, #DB220E 1.59%, rgba(241, 174, 43, 0) );
+            background: linear-gradient(88.27deg, #F1AE2B 1.59%, rgba(241, 174, 43, 0) );
             z-index: -1 !important;
         }
     
@@ -7513,7 +7513,7 @@ body{
             padding: 50px 30px;
             position: absolute;
             right: 0px;
-            bottom: 25px;
+            bottom: 45px;
             width: 600px;
             border-radius: 5px;
             p{
@@ -9159,7 +9159,7 @@ body{
     .content{
         margin: 0 100px;
         padding: 20px;
-        background: linear-gradient(180deg, #DB220E 0%, rgba(241, 174, 43, 0) 124.68%);
+        background: linear-gradient(180deg, #F1AE2B 0%, rgba(241, 174, 43, 0) 124.68%);
         border-radius: 5px;
         position: absolute;
         bottom: -100px;
@@ -9411,7 +9411,7 @@ body{
     .content{
         margin: 0 100px;
         padding: 20px;
-        background: linear-gradient(180deg, #DB220E 0%, rgba(241, 174, 43, 0) 124.68%);
+        background: linear-gradient(180deg, #F1AE2B 0%, rgba(241, 174, 43, 0) 124.68%);
         border-radius: 5px;
         position: absolute;
         bottom: -120px;
